@@ -33,7 +33,7 @@ jobs:
       - name: Extract Suda project
         run: |
           mkdir -p /tmp/suda
-          unzip -q Suda_Phone_Build_FIXED.zip -d /tmp/suda
+          unzip -q Suda_Phone_Build_Ready.zip -d /tmp/suda
           find /tmp/suda -name settings.gradle -type f
 
       - name: Build APK
